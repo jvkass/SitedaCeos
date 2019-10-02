@@ -47,11 +47,12 @@ export default class Navbar extends React.Component {
           {/*ITEMS NAVBAR MOBILE*/}
           <div className="navbar_items_responsive" style={this.state.visible ? {display: 'block'} : {display: 'none'}}>
             <ul> 
-              <li><a href="#" className="first-item">SOBRE NÓS</a></li>
-              <li><a href="#">SERVIÇOS</a></li>
-              <li><a href="#">PORTFÓLIO</a></li>
-              <li><a href="#">CONTATO</a></li>
-              <li><a href="#">BLOG</a></li>
+              <li><a href="#/sobre" className="first-item">SOBRE NÓS</a></li>
+              <li><a href="#/servico">SERVIÇOS</a></li>
+              <li><a href="#/portfolio">PORTFÓLIO</a></li>
+              <li><a href="#/contato">CONTATO</a></li>
+              <li><a href="#/faq">FAQ</a></li>
+              <li><a href="#/blog">BLOG</a></li>
             </ul>
           </div>
 
@@ -67,11 +68,12 @@ export default class Navbar extends React.Component {
           {/*ITEMS NAVBAR*/}
           <div className="navbar_items">
             <ul> 
-              <li><a href="#" style={colorText}>SOBRE NÓS</a></li>
-              <li><a href="#" style={colorText}>SERVIÇOS</a></li>
-              <li><a href="#" style={colorText}>PORTFÓLIO</a></li>
-              <li><a href="#" style={colorText}>CONTATO</a></li>
-              <li><a href="#" style={colorText}>BLOG</a></li>
+              <li><a href="#/sobre" style={colorText}>SOBRE NÓS</a></li>
+              <li><a href="#/servico" style={colorText}>SERVIÇOS</a></li>
+              <li><a href="#/portfolio" style={colorText}>PORTFÓLIO</a></li>
+              <li><a  href="#/contato" style={colorText}>CONTATO</a></li>
+              <li><a href="#/faq">FAQ</a></li>
+              <li><a href="#/blog" style={colorText}>BLOG</a></li>
             </ul>
           </div>
 

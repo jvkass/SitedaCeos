@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Navbar from '../Navbar/Navbar';
+
 import './Home.css'
 
 import header_background from '../../images/header/header_background.png';
@@ -7,7 +7,7 @@ import header_background from '../../images/header/header_background.png';
 const Home = () => {
   return(
     <div className="Home">
-      <Navbar/>
+    
 
       <div className="container">
         <p className="title"> CEOS </p>
