@@ -1,0 +1,68 @@
+.sobre h2 {
+    color: #1a5484;
+    font-family: NixieOne;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.sobre p {
+    color: black;
+    font-family: Inconsolata;
+    line-height: 25px;
+    font-size: 20px;
+    margin: 10px 0px 15px;
+}
+
+.sobre p strong {
+    color: black;
+    font-weight: normal;
+
+}
+.sobre {
+    padding: 60px 0px;
+}
+.sobre div{
+    display: flex;
+    padding: 0px 30px;
+}
+.box-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin-left: 15%;
+}
+
+.sobre a {
+    color: white;
+    background-color: #00cbff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Inconsolata;
+    padding: 5px 15px;
+    text-align: center;
+    font-weight: 600;
+    width: 38%;
+}
+
+.sobre a:hover {
+    background-color: #1a5281;
+}
+
+.sobre img{
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 1024px){
+    .sobre img{
+        display: none;
+    }
+
+    .box-1{
+        width: 75%;
+    }
+}
+

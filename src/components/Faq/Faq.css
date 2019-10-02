@@ -1,0 +1,27 @@
+.any_doubt {
+  text-align: center;
+  font-family: NixieOne;
+  font-size: 250%;
+}
+
+.check {
+  text-align: center;
+  font-family: Inconsolata;
+  font-size: 125%;
+}
+
+.question {
+  font-family: NixieOne;
+  font-size: 175%;
+  padding: 1% 5%;
+}
+
+.answer {
+  padding: 0 5%;
+}
+
+.link {
+  font-family: Inconsolata;
+  text-decoration: none;
+  color: black;
+}

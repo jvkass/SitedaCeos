@@ -1,0 +1,34 @@
+.background {
+  width: 100%;
+}
+
+.container {
+  font-family: NixieOne;
+  position: absolute;
+  font-size: 250%;
+  color: white;
+  margin-left: 10%;
+  margin-top: 15%
+}
+
+.title {
+  padding-left: 35%;
+}
+
+.orcamento {
+  font-size: 75%;
+  padding-left: 10%;
+  color: white;
+}
+
+.spacer {
+  height: 70px;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    margin-left: 10%;
+    margin-top: 15%;
+    font-size: 300%;
+  }
+}
