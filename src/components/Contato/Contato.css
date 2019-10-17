@@ -1,26 +1,33 @@
-.formulario {
-    padding: 60px 10px;
-    font-family: Arial, Helvetica, sans-serif;
+.formulario{
+    width: 100%;
+    bottom: 0px;
 }
+.fild:nth-child(1) { width: 250px; }
+.fild:nth-child(2) { width: 250px;  }
+
 
 .form{
+    padding: 20px;
     display: flex;
     flex-direction: column;
-  
+    align-items: center;
+    
+    margin: 150px;
 }
 
-.fild{
+input{
+    height: 40px;
+    width: 500px;
     padding: 10px; 
     margin-bottom: 15px; 
     border: 1px; 
-
     border-radius: 5px; 
     font-family: Arial, Helvetica, sans-serif; font-size: 15px;
     background: #805c5c;
     color: black ;
 
 }
-input{
-    width: 300px;
+.teste{	position: absolute;
+	top: 120px;
+	left: 42%;}
 
-}
