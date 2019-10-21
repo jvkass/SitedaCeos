@@ -1,33 +1,52 @@
 .formulario{
+    margin:  10px;
     width: 100%;
     bottom: 0px;
 }
-.fild:nth-child(1) { width: 250px; }
-.fild:nth-child(2) { width: 250px;  }
+.fild1:nth-child(1) { width: 240px;}
+.fild1:nth-child(2) { width: 240px;}
+.fild2:nth-child(3) { height: 125px;}
+
 
 
 .form{
+    
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
     margin: 150px;
 }
+fieldset{border: none;
+width: 500px;}
 
 input{
-    height: 40px;
-    width: 500px;
+    
+    height: 42px;
+    width: 492px;
     padding: 10px; 
-    margin-bottom: 15px; 
-    border: 1px; 
+    margin-bottom: 15px;  
     border-radius: 5px; 
-    font-family: Arial, Helvetica, sans-serif; font-size: 15px;
-    background: #805c5c;
-    color: black ;
-
+    font-family: Inconsolata; 
+    font-size: 18px;   
+    
 }
-.teste{	position: absolute;
-	top: 120px;
-	left: 42%;}
+.titulo1{	position: absolute;
+    margin: 0px -20px;
+    top: 20%;
+    left: 40%;
+    font-family: NixieOne;
+    font-size: 35px;
+    text-align: center;
+    color: #686868;
+}
+.titulo2{	position: relative;
+    margin: 10px 10px;
+    top: -110px;
+
+    font-family: NixieOne;
+    font-size: 35px;
+    text-align: center;
+    color: #686868;
+}
 

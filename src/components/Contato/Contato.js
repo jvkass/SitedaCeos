@@ -6,18 +6,18 @@ export default class Contato extends React.Component {
     render(){
         return(
             <section className="formulario">
-            <div>
-            <h1 className="teste">Entre em contato!</h1> 
-            <form  className="form" name="formteste" action="" method="post">
-             
-                <input className="fild" type="text" name="nome" value="Nome" required="required"></input>
-                <input  className="fild" type="text" name="email" value="Email" required="required"></input>
-                <input className="fild" type="text" name="assunto" value="assunto" required="required" ></input>
-                <input className="fild" name="mensagem" value="Sua mensagem"></input>
-                <input className="fild" type="submit" name="enviar" value="enviar"></input>
+            <h1 className="titulo1">Entre em contato!</h1> 
+            <form  className="form" name="formteste" >
+                <fieldset>
+                <input className="fild1" type="text" name="nome" value="nome" required="required"></input>
+                <input  className="fild1" type="text" name="email" value="e-mail" required="required"></input>
+                </fieldset>
+                <input className="fild2" type="text" name="assunto" value="assunto" required="required" ></input>
+                <input className="fild2" name="mensagem" value="Sua mensagem"></input>
+                <input className="fild2" type="submit" name="enviar" value="enviar"></input>
                     
             </form>
-             </div>
+            <h1 className="titulo2">Ou venha nos visitar!</h1> 
             </section>
         
         );
