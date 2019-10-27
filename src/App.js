@@ -3,6 +3,7 @@ import './App.css';
 import Routes from './Routes.js';
 import Navbar from './components/Navbar/Navbar.js';
 import Footer from './components/Footer/Footer.js';
+import Portfolio from './components/Portfolio/Portfolio.js';
 
 
 class App extends Component {
@@ -11,7 +12,7 @@ class App extends Component {
       <div className="App">
         <Navbar/>
         <Routes/>
-
+        <Portfolio/>
         <Footer/>
       </div>
     );
