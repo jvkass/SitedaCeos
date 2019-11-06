@@ -21,7 +21,7 @@ function MenuPort(){
     <div id="menu">
       <div id="botoes">
         <button>Todos</button>
-        <button>Sites</button>
+        <button>Sites</button>  
         <button>Aplicativos</button>
         <button>Sistemas</button>
       </div>
@@ -32,17 +32,13 @@ function MenuPort(){
 
 function GaleriaPort(){
   return(
-      <div id="galeria">
-        <div id="primeiraLinha">
-          <img src={imagem1} className="img" alt="imagem 1"/>
-          <img src={imagem2} className="img" alt="imagem 2"/>
-          <img src={imagem3} className="img" alt="imagem 3"/>
-        </div>
-        <div id="segundaLinha">
-          <img src={imagem4} className="img" alt="imagem 4"/>
-          <img src={imagem5} className="img" alt="imagem 5"/>
-          <img src={imagem6} className="img" alt="imagem 6"/>
-        </div>
+      <div id="portf-galeria">
+        <div>  <img className="portf-imagens" src={imagem1} />  </div>
+        <div>  <img className="portf-imagens" src={imagem2} />  </div>
+        <div>  <img className="portf-imagens" src={imagem3} />  </div>
+        <div>  <img className="portf-imagens" src={imagem4} />  </div>
+        <div>  <img className="portf-imagens" src={imagem5} />  </div>
+        <div>  <img className="portf-imagens" src={imagem6} />  </div>
     </div>
     );
 }
