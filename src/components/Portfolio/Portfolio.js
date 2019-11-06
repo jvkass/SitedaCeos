@@ -34,9 +34,7 @@ function GaleriaPort(){
   return(
       <div id="galeria">
         <div id="primeiraLinha">
-          <div id="teste">
-            <img src={imagem1} className="img" alt="imagem 1"/>
-          </div>
+          <img src={imagem1} className="img" alt="imagem 1"/>
           <img src={imagem2} className="img" alt="imagem 2"/>
           <img src={imagem3} className="img" alt="imagem 3"/>
         </div>
@@ -61,3 +59,4 @@ function Portfolio(){
 
 
 export default Portfolio;
+

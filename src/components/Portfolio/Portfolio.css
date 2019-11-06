@@ -45,9 +45,9 @@
 }
 
 #primeiraLinha{
-  display: flex;
+  display:flex;
   flex-direction: row;
-  flex: 1;
+  flex:1;
 
 }
 
@@ -61,6 +61,7 @@
   flex: 1;
   margin: 0px 0px;
   padding: 0px 0px;
+
 }
 
 .img:hover{
